@@ -1,0 +1,29 @@
+{
+  "name": "converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "convert": "gulp convert",
+    "atlas": "gulp atlas",
+    "copytodb": "gulp copytodb",
+    "copypanos": "gulp copypanos",
+    "copytos3": "gulp copy:to:s3",
+    "build:wiki": "gulp build:wiki"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.5",
+    "aws-sdk": "^2.7.20",
+    "bluebird": "^3.5.0",
+    "canvas-prebuilt": "^1.6.5-prerelease.1",
+    "debug": "^2.6.8",
+    "gulp": "^3.9.1",
+    "gulp-file-process": "^1.0.1",
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "run-sequence": "^1.2.2"
+  }
+}
